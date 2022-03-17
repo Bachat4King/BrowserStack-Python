@@ -1,6 +1,6 @@
 {
-  "user": "bastianalejandro_KQIEc7",
-  "key": "mAJ1z9DyQaZxBkNyyRa1",
+  "user": "",
+  "key": "",
   "capabilities": {
     "build": "behave-browserstack",
     "name": "parallel_test",
