@@ -1,0 +1,37 @@
+{
+  "user": "bastianalejandro_KQIEc7",
+  "key": "mAJ1z9DyQaZxBkNyyRa1",
+  "capabilities": {
+    "build": "behave-browserstack",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+  "environments": [
+    {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Chrome",
+      "browser_version": "latest",
+      "build": "Windows",
+      "name": "DemoQa test windows 10",
+      "browserstack.selenium_version": "3.14.0"
+    },
+    {
+      "browserName": "iPhone",
+      "device": "iPhone 11",
+      "realMobile": "true",
+      "os_version": "15",
+      "name": "DemoQa test Iphone 11",
+      "build": "BStack Build Number 1"
+    },
+    {
+      "os": "OS X",
+      "os_version": "Monterey",
+      "browser": "Safari",
+      "browser_version": "15.0",
+      "build": "MAC",
+      "name": "DemoQa test macOS monterrey",
+      "browserstack.selenium_version": "3.14.0"
+    }
+  ]
+}
