@@ -1,6 +1,6 @@
 {
-  "user": "",
-  "key": "",
+  "user": "your_user",
+  "key": "your_key",
   "capabilities": {
     "build": "behave-browserstack",
     "name": "parallel_test",
